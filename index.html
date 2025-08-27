@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreshMart Grocery Store</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin:0; padding:0; background-color:#f5f5f5;">
+
+<!-- Top Banner -->
+<div style="background-color:white; color:green; text-align:center; padding:10.5px; font-weight:bold;">
+    🎉 Free delivery on orders above ₹2000! Limited time offer!
+</div>
+
+<!-- Header -->
+<header style="background-color:#4CAF50; color:white; padding:40px 20px; text-align:center;">
+    <h1 style="margin:0; font-size:2.5em;">FreshMart Grocery Store</h1>
+    <p style="margin:5px 0 0; font-size:1.2em;">Fresh products delivered to your doorstep</p>
+</header>
+
+<!-- Navigation -->
+<nav style="background-color:black; overflow:hidden; position:sticky; top:0; z-index:100;">
+    <a href="#home" style="float:left; display:block; color:white; text-align:center; padding:14px 16px; text-decoration:none;">Home</a>
+    <a href="#categories" style="float:left; display:block; color:white; text-align:center; padding:14px 16px; text-decoration:none;">Categories</a>
+    <a href="#products" style="float:left; display:block; color:white; text-align:center; padding:14px 16px; text-decoration:none;">Products</a>
+    <a href="#deals" style="float:left; display:block; color:white; text-align:center; padding:14px 16px; text-decoration:none;">Deals</a>
+    <a href="#about" style="float:left; display:block; color:white; text-align:center; padding:14px 16px; text-decoration:none;">About</a>
+    <a href="#contact" style="float:left; display:block; color:white; text-align:center; padding:14px 16px; text-decoration:none;">Contact</a>
+</nav>
+
+<!-- Home Section -->
+<section id="home" style="padding:60px 20px; text-align:center; background-color:#e8f5e9;">
+    <h2 style="font-size:2em;">Welcome to FreshMart</h2>
+    <p style="font-size:1.2em; margin:10px 0 30px;">Your one-stop solution for fresh fruits, vegetables, and groceries.</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0FwI8rdYwylIJl0fwSt0RgGXItGPMYxlWsg&s" alt="Fresh groceries" style="width:30%; max-width:700px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+</section>
+
+<!-- Categories Section -->
+<section id="categories" style="padding:60px 20px; text-align:center;">
+    <h2 style="font-size:2em;">Categories</h2>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:25px; margin-top:40px;">
+        <div style="background-color:white; padding:20px; border-radius:15px; width:220px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15); cursor:pointer;" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjhcvIlF6I8UzQly7Qzkh2vAHtSGwbgq_XPg&s" alt="Fruits" style="width:100%; border-radius:10px;">
+            <h3>Fruits</h3>
+            <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Shop Now</button>
+        </div>
+        <div style="background-color:white; padding:20px; border-radius:15px; width:220px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15); cursor:pointer;" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMqhXQE1Kp0PCB63oKKKe2pX3OFu7Ccjiydg&s" alt="Vegetables" style="width:100%; border-radius:10px;">
+            <h3>Vegetables</h3>
+            <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Shop Now</button>
+        </div>
+        <div style="background-color:white; padding:20px; border-radius:15px; width:220px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15); cursor:pointer;" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSTZMrSC1pJgwiqkrZXZgq9fXct0tn47R06w&s" alt="Dairy" style="width:100%; border-radius:10px;">
+            <h3>Dairy</h3>
+            <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Shop Now</button>
+        </div>
+        <div style="background-color:white; padding:20px; border-radius:15px; width:220px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15); cursor:pointer;" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHm0CUgVH_wgjvFvdDXEWKluFRgzAW0jgoUQ&s" alt="Bakery" style="width:100%; border-radius:10px;">
+            <h3>Bakery</h3>
+            <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Shop Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- Products Section -->
+<section id="products" style="padding:60px 20px; text-align:center; background-color:#e8f5e9;">
+    <h2 style="font-size:2em;">Our Products</h2>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:25px; margin-top:40px;">
+        <div style="background-color:white; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3EV7jNXyjTNuSF3hQzEI59oHBgZBS5PSbGw&s" alt="Apples" style="width:100%; border-radius:10px;">
+            <h3>Apples</h3>
+            <p>₹160 / kg</p>
+            <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
+        </div>
+        <div style="background-color:white; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">
+            <img src="https://www.smc-madhusudan.co.in/cdn/shop/files/DoubleTonedMilk200MLPack_1.jpg?v=1714553103&width=2048" alt="Milk" style="width:100%; border-radius:10px;">
+            <h3>Milk</h3>
+            <p>₹60 / liter</p>
+            <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
+        </div>
+        <div style="background-color:white; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkuStfbXQ24or4DCnkmmikv9eDOtFJcvDO4Q&s" alt="Bread" style="width:100%; border-radius:10px;">
+            <h3>Bread</h3>
+            <p>₹40 / pack</p>
+            <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
+        </div>
+    </div>
+</section>
+<!-- Vegetables Section -->
+<section id="vegetables" style="padding:60px 20px; text-align:center; background-color:#ffffff;">
+    <h2 style="font-size:2em;">Fresh Vegetables</h2>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:25px; margin-top:40px;">
+        <div style="background-color:#f9f9f9; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8r-VwTaCsyZKTenU7U3X_njXctPRHn8LC2giWA4ftaicjkW8E2er3gKj461vWF_-UEsE&usqp=CAU" alt="Carrot" style="width:100%; border-radius:10px;">
+            <h3>Carrots</h3>
+            <p>₹50 / kg</p>
+            <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
+        </div>
+        <div style="background-color:#f9f9f9; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrDdZw8eTatwSjvrn72AWSxobLYbT_XubLHw&s" alt="Tomato" style="width:100%; border-radius:10px;">
+            <h3>Tomatoes</h3>
+            <p>₹40 / kg</p>
+            <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
+        </div>
+        <div style="background-color:#f9f9f9; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUK4OnV6kMHqzO81pbr2qamVNkwPfLSqZrJa1kH3-HkIZ3CO93WFXg9ZtfW_DDMsFZJ-k&usqp=CAU" alt="Potato" style="width:100%; border-radius:10px;">
+            <h3>Potatoes</h3>
+            <p>₹35 / kg</p>
+            <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
+        </div>
+    </div>
+</section>
+<!-- Scrolling Deals -->
+<section id="deals" style="padding:40px 20px; text-align:center;">
+    <h2 style="font-size:2em;">Special Deals</h2>
+    <marquee behavior="scroll" direction="left" style="margin-top:20px; font-weight:bold; color:#ff5722; font-size:1.2em;">
+        Buy 2 kg Apples, Get 1 kg Free! &nbsp;&nbsp;|&nbsp;&nbsp; 20% off on Dairy Products &nbsp;&nbsp;|&nbsp;&nbsp; Free delivery on orders above ₹2000
+    </marquee>
+</section>
+
+<!-- About Section -->
+<section id="about" style="padding:60px 20px; text-align:center; background-color:#e8f5e9;">
+    <h2 style="font-size:2em;">About Us</h2>
+    <p style="margin-top:20px; font-size:1.1em;">FreshMart is committed to providing high-quality groceries and fresh products to your home. We ensure freshness, quality, and timely delivery.</p>
+</section>
+<!-- Why Choose Us Section -->
+<div style="background-color:#ffffff; padding:40px; text-align:center; margin-top:20px;">
+    <h2 style="color:green; font-size:28px; margin-bottom:15px;">Why Choose FreshMart?</h2>
+    <p style="font-size:18px; color:#444; max-width:800px; margin:auto;">
+        At FreshMart, we are committed to delivering fresh, high-quality groceries right to your doorstep. 
+        Our goal is to make your shopping experience easy, affordable, and enjoyable.
+    </p>
+
+    <div style="display:flex; justify-content:center; gap:30px; margin-top:30px; flex-wrap:wrap;">
+        <div style="width:250px; padding:20px; border:1px solid #ddd; border-radius:12px; background:#f9f9f9;">
+            <h3 style="color:green;">🌱 Fresh & Organic</h3>
+            <p style="font-size:16px; color:#555;">We source directly from farms to ensure you always get fresh and healthy products.</p>
+        </div>
+
+        <div style="width:250px; padding:20px; border:1px solid #ddd; border-radius:12px; background:#f9f9f9;">
+            <h3 style="color:green;">💰 Affordable Prices</h3>
+            <p style="font-size:16px; color:#555;">Enjoy premium quality groceries at prices that fit your budget.</p>
+        </div>
+
+        <div style="width:250px; padding:20px; border:1px solid #ddd; border-radius:12px; background:#f9f9f9;">
+            <h3 style="color:green;">🚚 Fast Delivery</h3>
+            <p style="font-size:16px; color:#555;">Your groceries delivered to your doorstep quickly and safely.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<section id="contact" style="padding:60px 20px; text-align:center;">
+    <h2 style="font-size:2em;">Contact Us</h2>
+    <p style="margin-top:20px; font-size:1.1em;">Email: support@freshmart.com</p>
+    <p style="font-size:1.1em;">Phone: +91 9876543210</p>
+    <p style="font-size:1.1em;">Address: 123 Main Street, Chennai, India</p>
+</section>
+
+<!-- Go to Top Button -->
+<button onclick="window.scrollTo({top:0, behavior:'smooth'});" 
+        style="position:fixed; bottom:20px; right:20px; background-color:#4CAF50; color:white; border:none; padding:15px; border-radius:50%; font-size:1.2em; cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,0.3);">
+    ↑
+</button>
+
+<!-- Footer -->
+<footer style="background-color:#333; color:white; text-align:center; padding:25px; margin-top:30px;">
+    <p>&copy; 2025 FreshMart Grocery Store. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
