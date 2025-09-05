@@ -8,16 +8,18 @@
 <body style="font-family: Arial, sans-serif; margin:0; padding:0; background-color:#f5f5f5;">
 
 <!-- Top Banner -->
-<div style="background-color:white; color:green; text-align:center; padding:10.5px; font-weight:bold;">
+<div style="background:#fff; text-align:center; padding:10px; font-weight:bold; font-size:20px; color:red;">
+  <span style="display:inline-block; animation: wave 2s infinite ease-in-out;">
     🎉 Free delivery on orders above ₹2000! Limited time offer!
+  </span>
 </div>
 
-<!-- Header -->
-<header style="background-color:#4CAF50; color:white; padding:40px 20px; text-align:center;">
-    <h1 style="margin:0; font-size:2.5em;">FreshMart Grocery Store</h1>
-    <p style="margin:5px 0 0; font-size:1.2em;">Fresh products delivered to your doorstep</p>
-</header>
-
+<style>
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+</style>
 <!-- Navigation -->
 <nav style="background-color:black; overflow:hidden; position:sticky; top:0; z-index:100;">
     <a href="#home" style="float:left; display:block; color:white; text-align:center; padding:14px 16px; text-decoration:none;">Home</a>
@@ -27,12 +29,33 @@
     <a href="#about" style="float:left; display:block; color:white; text-align:center; padding:14px 16px; text-decoration:none;">About</a>
     <a href="#contact" style="float:left; display:block; color:white; text-align:center; padding:14px 16px; text-decoration:none;">Contact</a>
 </nav>
+<!-- HERO SECTION -->
+<div style="display:flex; justify-content:space-between; align-items:center; background-color:Green; color:white; padding:60px 40px;">
+    <!-- Text Content -->
+    <div style="max-width:50%;">
+        <h1 style="font-size:42px; font-family:cursive; margin-bottom:20px;cursor:pointer;" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'">Fresh & Organic Groceries</h1>
+        <p style="color:#white; line-height:1.6; margin-bottom:25px;">
+            Shop the best quality fruits, vegetables, and essentials directly sourced from farms.  
+            Experience freshness, quality, and quick delivery with FreshMart.
+        </p>
+        <a href="#products" style="background-color:#111; padding:12px 28px; border-radius:25px; text-decoration:none; color:white; font-weight:bold; font-size:16px;">Order Now</a>
+    </div>
+
+    <!-- Image -->
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzMuVWuDsAIqjwU42Z1XLSh_7iYTTovcnmXw&s" alt="Fresh Groceries" style="width:300px; border-radius:12px;cursor:pointer;" 
+             onmouseover="this.style.transform='scale(1.05)'" 
+             onmouseout="this.style.transform='scale(1)'"">
+    </div>
+</div>
 
 <!-- Home Section -->
-<section id="home" style="padding:60px 20px; text-align:center; background-color:#e8f5e9;">
+<section id="home" style="padding:60px 20px; text-align:center; background-color">
     <h2 style="font-size:2em;">Welcome to FreshMart</h2>
     <p style="font-size:1.2em; margin:10px 0 30px;">Your one-stop solution for fresh fruits, vegetables, and groceries.</p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0FwI8rdYwylIJl0fwSt0RgGXItGPMYxlWsg&s" alt="Fresh groceries" style="width:30%; max-width:700px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+    <img src="https://cdn.create.vista.com/downloads/73f1b298-b3bb-4fb0-98ff-ff07542b8ef1_1024.jpeg" alt="Fresh groceries" style="width:20%; max-width:300px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
 </section>
 
 <!-- Categories Section -->
@@ -77,7 +100,7 @@
         <div style="background-color:white; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
              onmouseover="this.style.transform='scale(1.05)'" 
              onmouseout="this.style.transform='scale(1)'">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3EV7jNXyjTNuSF3hQzEI59oHBgZBS5PSbGw&s" alt="Apples" style="width:100%; border-radius:10px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3EV7jNXyjTNuSF3hQzEI59oHBgZBS5PSbGw&s" alt="Apples" style="width:100%;height:60%; border-radius:10px;">
             <h3>Apples</h3>
             <p>₹160 / kg</p>
             <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
@@ -85,7 +108,7 @@
         <div style="background-color:white; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
              onmouseover="this.style.transform='scale(1.05)'" 
              onmouseout="this.style.transform='scale(1)'">
-            <img src="https://www.smc-madhusudan.co.in/cdn/shop/files/DoubleTonedMilk200MLPack_1.jpg?v=1714553103&width=2048" alt="Milk" style="width:100%; border-radius:10px;">
+            <img src="https://www.smc-madhusudan.co.in/cdn/shop/files/DoubleTonedMilk200MLPack_1.jpg?v=1714553103&width=2048" alt="Milk" style="width:100%;height:60%;border-radius:10px;">
             <h3>Milk</h3>
             <p>₹60 / liter</p>
             <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
@@ -93,7 +116,7 @@
         <div style="background-color:white; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
              onmouseover="this.style.transform='scale(1.05)'" 
              onmouseout="this.style.transform='scale(1)'">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkuStfbXQ24or4DCnkmmikv9eDOtFJcvDO4Q&s" alt="Bread" style="width:100%; border-radius:10px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkuStfbXQ24or4DCnkmmikv9eDOtFJcvDO4Q&s" alt="Bread" style="width:100%;height:60%; border-radius:10px;">
             <h3>Bread</h3>
             <p>₹40 / pack</p>
             <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
@@ -107,7 +130,7 @@
         <div style="background-color:#f9f9f9; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
              onmouseover="this.style.transform='scale(1.05)'" 
              onmouseout="this.style.transform='scale(1)'">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8r-VwTaCsyZKTenU7U3X_njXctPRHn8LC2giWA4ftaicjkW8E2er3gKj461vWF_-UEsE&usqp=CAU" alt="Carrot" style="width:100%; border-radius:10px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHhVnefYhqc0mQ63ubJcaRe5io0tLmcwj_XdVGgjlyPmDkF6A2Z48ajIpzlRe4CN3xeMY&usqp=CAU" alt="Carrot" style="width:100%; height:70%; border-radius:10px;">
             <h3>Carrots</h3>
             <p>₹50 / kg</p>
             <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
@@ -115,7 +138,7 @@
         <div style="background-color:#f9f9f9; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
              onmouseover="this.style.transform='scale(1.05)'" 
              onmouseout="this.style.transform='scale(1)'">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrDdZw8eTatwSjvrn72AWSxobLYbT_XubLHw&s" alt="Tomato" style="width:100%; border-radius:10px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrDdZw8eTatwSjvrn72AWSxobLYbT_XubLHw&s" alt="Tomato" style="width:100%;height:70%; border-radius:10px;">
             <h3>Tomatoes</h3>
             <p>₹40 / kg</p>
             <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
@@ -123,7 +146,7 @@
         <div style="background-color:#f9f9f9; padding:20px; border-radius:15px; width:200px; transition:0.3s; box-shadow:0 2px 6px rgba(0,0,0,0.15);" 
              onmouseover="this.style.transform='scale(1.05)'" 
              onmouseout="this.style.transform='scale(1)'">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUK4OnV6kMHqzO81pbr2qamVNkwPfLSqZrJa1kH3-HkIZ3CO93WFXg9ZtfW_DDMsFZJ-k&usqp=CAU" alt="Potato" style="width:100%; border-radius:10px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUK4OnV6kMHqzO81pbr2qamVNkwPfLSqZrJa1kH3-HkIZ3CO93WFXg9ZtfW_DDMsFZJ-k&usqp=CAU" alt="Potato" style="width:100%; height:70%;border-radius:10px;">
             <h3>Potatoes</h3>
             <p>₹35 / kg</p>
             <button style="background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer;">Add to Cart</button>
@@ -168,7 +191,6 @@
         </div>
     </div>
 </div>
-
 <!-- Contact Section -->
 <section id="contact" style="padding:60px 20px; text-align:center;">
     <h2 style="font-size:2em;">Contact Us</h2>
@@ -179,7 +201,7 @@
 
 <!-- Go to Top Button -->
 <button onclick="window.scrollTo({top:0, behavior:'smooth'});" 
-        style="position:fixed; bottom:20px; right:20px; background-color:#4CAF50; color:white; border:none; padding:15px; border-radius:50%; font-size:1.2em; cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,0.3);">
+        style="position:fixed; bottom:20px; right:20px; background-color:darkgreen; color:white; border:none; padding:15px; border-radius:50%; font-size:1.2em; cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,0.3);">
     ↑
 </button>
 
